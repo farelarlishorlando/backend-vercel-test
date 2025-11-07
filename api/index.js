@@ -60,6 +60,4 @@ app.post("/products", async (req, res) => {
 });
 
 // Export app untuk Vercel (tanpa app.listen)
-// export default app;
-
-app.listen(3000, () => console.log("Successfuly..."))
+export default app;
